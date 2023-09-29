@@ -25,7 +25,7 @@ const Home = () => {
     const option = {
       method: 'GET',
       headers: {
-          'Ocp-Apim-Subscription-Key': "",
+          'Ocp-Apim-Subscription-Key': "", //Your Bing API goes here
       }
   };
     const fetchData = () => {
